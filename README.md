@@ -107,29 +107,30 @@ Users are responsible for ensuring they have the rights to use, modify, and redi
 
 ---
 
-## Setup & Configuration
+## ⚙️ Setup & Configuration
 
 ### Required Credentials
 
-#### BrowseAI
+#### BrowseAI  
 https://www.browse.ai/  
+- Project Name: `OpFundAI`  
 - Robot ID: `YOUR-ROBOT-ID`  
-- Monitor ID: `YOUR-MONITOR-ID` (optional)  
+- Monitor ID: `YOUR-MONITOR-ID` *(optional)*  
 - API Key: `YOUR-API-KEY`  
-- Webhook: `YOUR-WEBHOOK-URL` (optional)
+- Webhook: `YOUR-WEBHOOK-URL` *(optional, used for logging/testing)*  
 
 #### Google / YouTube API  
 https://developers.google.com/youtube/v3  
-- Project Name: `OpFundAI7777777`  
+- Project Name: `OpFundAI`  
 - Project ID: `YOUR-PROJECT-ID`  
 - Project Number: `YOUR-PROJECT-NUMBER`  
 - Client ID: `YOUR-CLIENT-ID`  
 - YouTube API Key: `YOUR-YOUTUBE-API-KEY`  
-- JSON File: `Youtube.json`
+- JSON File: `Youtube.json`  
 
 ---
 
-## Environment Setup
+## ☁️ Environment Setup
 
 This project is designed to run on a cloud machine.
 
@@ -137,10 +138,60 @@ Recommended providers:
 - Linode  
 - Google Cloud  
 
+### Installation
+
+Ensure Python is installed on your system.
+
 Install dependencies:
 ```pip install -r Assets/Packaged.txt```
 
+
 ---
+
+## 🛠️ Configuration Steps
+
+1. **Edit Core Modules**  
+   Open the following files and replace placeholder logic with your own:
+   - `OpusClip.py`  
+   - `Scraper.py`  
+   - `UploadVideos.py`  
+
+2. **Set Up YouTube Credentials**  
+   - Generate your Client ID via Google Cloud  
+   - Download the JSON file provided  
+   - Rename it to:  
+     ```
+     Youtube.json
+     ```
+   - Place it inside the `/Assets` directory  
+
+3. **Browser Configuration (Cloud Machine)**  
+   - Ensure the browser is up to date  
+   - Set the downloads directory to:  
+     ```
+     OpFundAI7/Videos
+     ```
+
+---
+
+## ▶️ Running the Project
+
+Start the automation system by running:
+```python App.py```
+
+Modify any part of the system as needed. The project is designed to be flexible and customizable.
+
+---
+
+## 🧪 Development Notes / Future Ideas
+
+- Planned built-in video editing system  
+- Potential integration of trending audio (e.g. TikTok scraping)  
+- Randomised visual effects added to videos  
+- Possible rewrite in a lower-level language (C, Lua, or Java)  
+- Future `configs.json` system for easier configuration  
+- Potential GUI tool for managing the bot  
+
 
 ## Author
 
