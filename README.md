@@ -220,3 +220,9 @@ OpFundAI7 was designed around a modular pipeline:
 
 - **App.py**  
   Controls the automation loop, scheduling, and error handling  
+
+---
+
+## License
+
+This project is licensed under the MIT License.
