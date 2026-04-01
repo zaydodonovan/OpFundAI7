@@ -107,7 +107,7 @@ Users are responsible for ensuring they have the rights to use, modify, and redi
 
 ---
 
-## ⚙️ Setup & Configuration
+## Setup & Configuration
 
 ### Required Credentials
 
@@ -130,7 +130,7 @@ https://developers.google.com/youtube/v3
 
 ---
 
-## ☁️ Environment Setup
+## Environment Setup
 
 This project is designed to run on a cloud machine.
 
@@ -148,7 +148,7 @@ Install dependencies:
 
 ---
 
-## 🛠️ Configuration Steps
+## Configuration Steps
 
 1. **Edit Core Modules**  
    Open the following files and replace placeholder logic with your own:
@@ -174,7 +174,7 @@ Install dependencies:
 
 ---
 
-## ▶️ Running the Project
+## Running the Project
 
 Start the automation system by running:
 ```python App.py```
@@ -183,7 +183,7 @@ Modify any part of the system as needed. The project is designed to be flexible 
 
 ---
 
-## 🧪 Development Notes / Future Ideas
+## Development Notes / Future Ideas
 
 - Planned built-in video editing system  
 - Potential integration of trending audio (e.g. TikTok scraping)  
