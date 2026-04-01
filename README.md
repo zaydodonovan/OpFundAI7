@@ -154,9 +154,9 @@ The project was developed as part of early exploration into:
 - Content pipelines  
 - Long-running processes  
 
-### 🧠 Original Concept
+### Original Concept
 
-The system was designed around a modular pipeline:
+OpFundAI7 was designed around a modular pipeline:
 
 - **OpusClip Module**  
   Utility functions for file handling, system operations, and connectivity checks  
