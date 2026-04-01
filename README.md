@@ -1,4 +1,4 @@
-## OpFundAI77777777 (NOW DEPRECATED)
+## OpFundAI7 (NOW DEPRECATED)
 *Developed in November 2023*
 
 A fully automated Python system for managing YouTube and social media workflows using APIs, scraping, and automation. Designed for continuous content generation with minimal input.
