@@ -62,7 +62,7 @@ It was built as an experimental automation system and may not work with current 
 
 ### Automated Clips-Based Content Channel
 
-OpFundAI7777777 can be used to build a semi-automated content pipeline for short-form or clips-based media channels.
+OpFundAI7 can be used to build a semi-automated content pipeline for short-form or clips-based media channels.
 
 For example, a creator could:
 
